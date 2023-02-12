@@ -1,7 +1,7 @@
 function getFullName(firstName, lastName) {
   return firstName + lastName;
 }
-/*
+
 function isPalindrome(str) {
   // get the total length of the words
   const len = string.length;
@@ -22,6 +22,5 @@ const string = prompt('Enter a string or number: ');
 const value = validatePalin(string);
 
 console.log(value);
-*/
 
 module.exports = getFullName;
